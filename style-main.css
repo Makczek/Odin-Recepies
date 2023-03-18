@@ -1,0 +1,26 @@
+
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.5;
+}
+.title {
+    background-color: black;
+    font-size: 40px;
+    color: burlywood;
+    text-align: center;
+}
+
+a:link {
+    color:azure;
+    text-decoration: none;
+    border: 3px solid burlywood;
+    background-color: black;
+}
+
+a:visited {
+    color: yellow;
+    text-decoration: none;
+    border: 3px solid burlywood;
+    background-color: black;
+}
