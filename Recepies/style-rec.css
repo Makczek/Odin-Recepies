@@ -8,20 +8,69 @@
 .title {
     color: whitesmoke;
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
+    font-weight: bold;
     background-color: burlywood;
+    font-style: italic;  
+    margin-bottom: 60px;
 }
 
 .image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 50%;
     border: 40px groove burlywood;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .para {
     background-color: black;
     color: silver;
     text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+a {
+    color:azure;
+    text-decoration: none;
+    border: 3px solid burlywood;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 40px;  
+}
+
+a:visited {
+    color: yellow;
+}
+
+.steps {
+    font-weight: bold;
+    margin-left: 40px;
+    color: black;
+}
+
+ol li {
+    list-style-type: decimal;
+    color: silver;
+    padding: 1px;
+    margin-left: auto;
+    list-style-position: inside;
+}
+
+ul li {
+    list-style-type: square;
+    color: black;
+    padding: 1px;
+    margin-left: 70px;
+    list-style-position: inside;
+}
+
+p {
+    margin-left: 40px;
+    margin-right: 40px;
 }
